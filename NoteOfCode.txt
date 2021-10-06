@@ -1,0 +1,11 @@
+In this note, details and functions of the code will be introduced:
+
+The whole function of this code is to show main features of Golay complementary sequence.
+
+The Golay 128 sequences are generated as the same of which are defined in file IEEE 802.11.ad-2012, Section 21.11
+
+ The code aims to show that:
+1. The sum of autocorrelation of a pair of Golay sequence is an impulse, which means it have one value at center of the output sequence while other elements are all zeros.
+
+2. With certain combination of smaller Golay sequence, the sum of "the sum of autocorrelation of two pairs of Golay sequence" could be zero, which means the two pairs are orthogonal 
+that they would not have interference when transforming information by two perpendicular antennas.
